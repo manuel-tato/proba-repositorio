@@ -34,3 +34,23 @@ git remote add origin
 git push
 ```
 > Git push utilizase para publicar e cargar cambios locais a un repositorio remoto.
+
+```bash
+git pull
+```
+> Git pull serve para extraer e descargar contido dende un repositorio remoto e actualizar ao instante o repositorio local.
+
+```bash
+git diff
+```
+> Git diff utilizase amosar a diferenza entre o último commit e o que temos ahora no archivo.
+
+```bash
+git show
+```
+> Git show amosa a diferencia entre os dous últimos commits.
+
+```bash
+git commit --amend -m
+```
+> Git --amend -m serve para modificar a mensaxe do último commit.
