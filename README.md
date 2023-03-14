@@ -54,3 +54,33 @@ git show
 git commit --amend -m
 ```
 > Git --amend -m serve para modificar a mensaxe do último commit.
+
+```bash
+git branch nombreRama
+```
+>Serve para crear unha nova rama.
+
+```bash
+git checkout nombreRama
+```
+> Cambia o head á rama especificada no comando.
+
+```bash
+git merge nombreRama
+```
+> Fusiona a rama especificada coa rama na que está o head.
+
+```bash
+git remote -v
+```
+>Mostra todos os repositorios remotos.
+
+```bash
+Fork
+```
+>Crea un repositorio remoto a partir doutro repositorio existente.
+
+```bash
+Pull request
+```
+>Para fusionar os cambios cos de outras persoas, para esto un repositorio tivo que ser forkeado.
